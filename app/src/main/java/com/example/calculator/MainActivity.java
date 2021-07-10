@@ -185,7 +185,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String val = tvmain.getText().toString();
-                double result = eval(val);
+                String replacedString = val.replace('x', '*');
+                double result = eval(replacedString);
                 tvsec.setText(tvmain.getText());
                 tvmain.setText(String.valueOf(result));
             }

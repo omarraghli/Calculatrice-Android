@@ -314,7 +314,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#F8F5F5"
-                        android:text="*"
+                        android:text="x"
                         android:textColor="#009688"
                         android:textSize="30sp">
 
